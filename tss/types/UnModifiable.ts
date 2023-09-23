@@ -3,7 +3,7 @@ export class UnModifiable<T> {
     public constructor(v: T) {
         this.v = v;
     }
-    public get get() {
+    public get $(): T {
         return this.v;
     }
 }
